@@ -1,4 +1,4 @@
-Action()
+Action_1()
 {
 	lr_start_transaction("01_AP1_TEST");
 

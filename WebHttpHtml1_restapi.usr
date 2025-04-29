@@ -25,7 +25,7 @@ Description=
 ScriptLocale=en-IN
 [Actions]
 vuser_init=vuser_init.c
-Action=Action.c
+Action_1=Action_1.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -37,19 +37,19 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=0
-Action=1
+Action_1=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
-Action=0
+Action_1=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
-Action=1
+Action_1=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
-Action=cci
+Action_1=cci
 vuser_end=cci
 [TransactionsOrder]
 Order="01_AP1_TEST"
