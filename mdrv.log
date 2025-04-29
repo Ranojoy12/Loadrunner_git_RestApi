@@ -1,0 +1,25 @@
+Virtual User Script started at: 29-04-2025 09:32:21
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.3.0 for Windows 11; build 528 (Jul 14 2024 16:38:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Script\WebHttpHtml1_restapi\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): Notify: Transaction "01_AP1_TEST" started.
+Action.c(5): web_rest("GET: https://reqres.in/api/users") started  	[MsgId: MMSG-26355]
+Action.c(5): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Action.c(5): web_add_header("x-api-key") started  	[MsgId: MMSG-26355]
+Action.c(5): web_add_header("x-api-key") was successful  	[MsgId: MMSG-26392]
+Action.c(5): Notify: ****************   End of messages from web_add_header   *****************
+Action.c(5): web_rest("GET: https://reqres.in/api/users") was successful, 394 body bytes, 1195 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "01_AP1_TEST" ended with a "Pass" status (Duration: 0.4228 Wasted Time: 0.0983).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

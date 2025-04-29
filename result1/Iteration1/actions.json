@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Rest Request: GET: https://reqres.in/api/users",
+                "infFile": "t1.inf",
+                "time": 1745899342013
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_AP1_TEST",
+                "rawStartTime": 1745899341598,
+                "rawEndTime": 1745899342021,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09827017784118653
+            }
+        ]
+    }
+]
